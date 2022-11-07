@@ -1,0 +1,6 @@
+#!/bin/bash
+git pull origin dev --no-edit
+docker build -t jagatnet_apppanjar .
+docker stop apppanjar
+docker rm -f apppanjar
+docker run -d --name apppanjar -p 3002:3000 jagatnet_apppanjar:latest

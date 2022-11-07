@@ -1,0 +1,460 @@
+ 
+html,
+body,
+body > div:first-child,
+div#__next,
+div#__next > div {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 14px;
+}
+#root {
+  height: 100%;
+}
+.appwrapper {
+  height: 100%;
+  display: flex;
+}
+.admin-view {
+  /* display: flex; */
+  justify-content: space-between;
+  flex-direction: column;
+}
+.m70middle {
+  width: 70%;
+  margin: auto;
+}
+.mainclass {
+  height: 100%;
+}
+.row {
+  flex-wrap: wrap;
+  display: flex;
+}
+.hide {
+  display: none !important;
+}
+
+.centerdiv {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.centerdivvertical {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.tacenter {
+  text-align: center;
+}
+.taleft{
+  text-align: left;
+}
+.taright {
+  text-align: right;
+}
+
+.hzpad {
+  padding-left: 16px !important;
+  padding-right: 16px !important;
+}
+
+.hzmargin {
+  margin-left: 16px !important;
+  margin-right: 16px !important;
+}
+
+.nopad {
+  padding: 0 !important;
+}
+.nopadtop {
+  padding-top: 0 !important;
+}
+
+.nomargin {
+  margin: 0 !important;
+}
+
+.nomarginbot {
+  margin-bottom: 0 !important;
+}
+
+.w100 {
+  width: 100% !important;
+}
+.w50 {
+  width: 50% !important;
+}
+.pad1 {
+  padding: 10px;
+}
+.ml1 {
+  margin-left: 1rem !important;
+}
+
+.mr1 {
+  margin-right: 1rem !important;
+}
+
+.mt1 {
+  margin-top: 1rem !important;
+}
+
+.mb1 {
+  margin-bottom: 1rem !important;
+}
+.divider {
+  height: 1rem !important;
+}
+
+.horizontalline {
+  border: 1px solid #e6e7eb;
+  background-color: #e6e7eb;
+  width: 100%;
+  height: 1px;
+}
+.isflex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row {
+  width: 100%;
+}
+.c-field {
+  margin-bottom: 0.5rem;
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    overflow: hidden;
+  }
+}
+
+
+.sb-pm-color{
+  background-color: #003068 ;
+} 
+.sb-pm-text-color{
+  color: #d6d6d6 !important; 
+} 
+
+.pm-btn-color{
+  background-color: rgba(0, 71, 171, 0.1);
+  color: #0047AB;
+}
+.header-pm-color{
+  background-color: #2C589A !important;
+}
+.header-pm-textcolor{
+  color: white;
+}
+.pm-white-color{
+  background-color: white !important;
+}
+
+.pro-inner-list-item{
+  background-color: #003068 !important; 
+  color: white;
+}  
+.popper-inner{
+  background-color: #003068 !important;
+  color: white !important;
+  font-weight: bold;
+}
+
+.grey-tc{
+  color: grey;
+  text-decoration: none;
+}
+.no-style{
+  text-decoration: none;
+}
+.login-box{
+  margin: auto;
+  top: 10%;
+  position: relative;
+  width: 30%;
+  min-width: 300px;
+  padding: 1.5rem!important; 
+  background: white;
+}
+.login-btn-color{
+  background: #0047AB !important;
+}
+.topTxtSearch{
+  box-sizing: border-box; 
+  width: 180px;
+  height: 40px; 
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
+  border-radius: 100px; 
+}
+
+@media (min-width: 768px)
+{
+  .navbar-expand-md {
+    flex-wrap: nowrap;
+    justify-content: unset !important;
+  }
+}
+
+
+.noddlicon .nav-link {
+  padding: 0 !important;
+}
+.noddlicon .dropdown-toggle::after {
+  display: none;
+}
+.dropstart .dropdown-toggle::before {
+  display: none !important;
+}  
+.dropstart .dropdown-menu  {
+  top: 50px !important;
+  right: -30px;
+}
+
+.border-rounded{
+  border-radius: 2.375rem !important;
+}
+
+.action-custom-btn{
+  cursor: pointer;
+  padding: 0.5rem;
+  background-color: transparent !important;
+  border: transparent !important;
+} 
+
+.add-btn{
+  background-color: #0047AB !important;
+  color: white !important;
+}
+
+.add-btn-outline{
+  background-color: white !important;
+  color: #0047AB !important;
+}
+
+.project-status{
+  border-radius: 5px;
+  min-width: 120px;
+  text-align: center;
+  padding: 5px 10px 5px 10px;
+  font-weight: 700!important;
+}
+
+.project-waiting-approval{
+  background-color: #FFDB99!important;
+  color: #FFA500 !important;
+}
+.project-approved{
+  background-color: #99B5DD!important;
+  color: #0047AB !important;
+}
+.project-rejected{
+  background-color: #FF3333!important;
+  color: white !important;
+}
+.project-onpayment-schedule{
+  background-color: #FFC500!important;
+  color: #fff !important;
+}
+.project-done{
+  background-color: #99CC99!important;
+  color: #008000 !important;
+}
+.project-payment-transferred{
+  background-color: #ED9BAB!important;
+  color: #D2042D !important;
+}
+.project-in-progress{
+  background-color: #CC99CC!important;
+  color: #800080 !important;
+}
+.project-paid{
+  background-color: #008000!important;
+  color: white !important;
+}
+.project-completed-report{
+  background-color: #EEEEEE!important;
+  color: #54595E !important;
+}
+.project-closed{
+  background-color: #0047AB!important;
+  color: white !important;
+}
+.bg-low{
+  background-color: rgba(222, 0, 0, 1) !important;
+}
+.bg-medium{
+  background-color: rgba(255, 199, 0, 1) !important; 
+}
+.bg-medium-high{
+  background-color: rgba(0, 71, 171, 1) !important;
+  
+}
+.bg-high{
+  background-color: rgba(0, 128, 0, 1) !important;
+  
+}
+
+.modal-80w{
+  width: 80%;
+  min-width: 800px;
+}
+
+.rounded-btn{
+  width: 42px;
+  height: 42px;
+  padding: 0!important;
+  border-radius: 50%!important;
+  -webkit-box-align: center!important;
+  -ms-flex-align: center!important;
+  align-items: center!important;
+  -webkit-box-pack: center!important;
+  -ms-flex-pack: center!important;
+  justify-content: center!important;
+}
+
+.btn-minus-project{
+  width: 35px;
+  height: 35px;
+  padding: 0!important;
+  position: absolute;
+  top: -1.3rem;
+  right: 0.5rem;
+  background-color: white !important;
+  transition: all 0.4s ease;
+  color: #dc3545 !important;
+  border-color: #dc3545 !important;
+
+}
+
+.btn-minus-project:hover{
+  width: 35px;
+  height: 35px;
+  padding: 0!important;
+  position: absolute;
+  top: -1.3rem;
+  right: 0.5rem;
+  background-color: #dc3545 !important;
+  transition: all 0.4s ease;
+  color: white !important; 
+
+}
+
+.btn-light-blue{ 
+  border: 1px solid #E2E9F3!important;
+  background-color: #E2E9F3!important;
+  color: #0047AB!important;
+  transition: all 0.4s ease;
+}
+.btn-light-blue:hover{ 
+  border: 1px solid #E2E9F3!important;
+  background-color: #E2E9F3!important;
+  color: #0038BC!important;
+  transition: all 0.4s ease;
+}
+
+
+.btn-cancel{ 
+  border: 1px solid #0047AB!important;
+  background-color: white!important;
+  color: #0047AB!important;
+  transition: all 0.4s ease;
+}
+
+.btn-cancel:hover{ 
+  border: 1px solid #E2E9F3!important;
+  background-color: #0047AB!important;
+  color: white!important;
+  transition: all 0.4s ease;
+}
+
+
+.btn-reject{ 
+  border: 1px solid rgba(222, 0, 0, 0.2) !important;
+  background-color: rgba(222, 0, 0, 0.2) !important;
+  color: red!important;
+  transition: all 0.4s ease;
+}
+ 
+.btn-save{  
+  background-color: #0047AB!important;
+  color: white!important;
+  transition: all 0.4s ease;
+}
+
+.row{
+  margin: 0 !important;
+}
+.mr-1{
+
+  margin-right: 0.25rem !important;
+}
+.mr-2{
+  margin-right: 0.5rem !important;
+}
+
+.mt-2{
+  margin-top: 0.5rem !important;
+}
+.ml-2{
+  margin-left: 0.25rem !important;
+}
+.input-group:focus-within  .input-group-text,
+.form-control:focus ~ .input-group-append .input-group-text {
+  border-color: rgba(0, 102, 255, 0.5);
+}
+
+.form-control:invalid > .input-group-text{
+  border: 1px solid red !important;
+}
+.form-control:valid > .input-group-text{
+  border: 1px solid  #198754 !important;
+ 
+} 
+.alert{
+  padding: 0.5rem !important;
+}
+.dropdown-item{
+  white-space: normal !important;
+}
+
+.img-cover{
+  object-fit: cover;
+}
+
+.form-control.is-invalid, .was-validated .form-control:invalid {
+    border-color: #dc3545 !important; 
+    background-image: "url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='%23dc3545'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e)" !important;
+     
+}
+
+.hidden{
+  display: none !important;
+}
+.card{
+  margin-top: 0.5rem;
+}
+.react-datepicker__input-container {
+  width: inherit;
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+.spinner-border{
+  height: 1rem !important;
+  width: 1rem !important;
+}

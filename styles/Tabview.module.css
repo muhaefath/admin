@@ -1,0 +1,11 @@
+.ctabview .p-tabview-panels {
+  padding: 0 !important;
+}
+.p-tabview-nav{
+  margin-left: 5px;
+}
+.p-tabview .p-tabview-nav li .p-tabview-nav-link{ 
+  padding: 0.4rem;
+  border: 2px solid #dee2e6;
+  border-color: 2px solid #dee2e6;
+}

@@ -1,0 +1,108 @@
+.p-toolbar {
+  padding: 5px !important;
+  background: white !important;
+  border: 0px; 
+  margin-bottom: 1rem;
+}
+.p-toolbar .p-button {
+  width: 35px !important;
+  height: 35px !important;
+}
+.p-component {
+  font-size: 14px !important;
+}
+.p-inputtext {
+  font-size: 14px !important;
+  padding: 5px;
+}
+.p-placeholder {
+  font-size: 14px !important;
+}
+.p-datatable.p-datatable-sm .p-datatable-thead > tr > th {
+  padding: 0.3rem;
+}
+.p-datatable-wrapper {
+  height: 100%;
+}
+.inactiverow {
+  font-style: italic;
+}
+.blockedrow {
+  text-decoration: line-through;
+}
+.deletedrow {
+  text-decoration: line-through;
+  background-color: red;
+}
+.actionbutton {
+  height: 27px !important;
+  width: 35px !important;
+}
+.c-custom-width-btn {
+  width: 32px !important;
+}
+.p-filter-column input {
+  width: 100%;
+}
+.p-datatable .p-datatable-tbody > tr > td .p-column-title {
+  display: none;
+}
+.overflowtext {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.actionswidth {
+  width: 110px;
+}
+@media screen and (max-width: 40em) {
+  .overflowtext {
+    white-space: normal;
+  }
+
+  .p-datatable .p-datatable-thead > tr > th,
+  .datatable-responsive
+    .p-datatable.p-datatable-responsive
+    .p-datatable-tfoot
+    > tr
+    > td {
+    display: none !important;
+  }
+
+  .p-datatable.p-datatable-responsive
+    .p-datatable-tbody
+    > tr
+    > td
+    .p-column-title {
+    padding: 0;
+    min-width: 30%;
+    display: inline-block;
+    margin: 0;
+    font-weight: bold;
+  }
+
+  .p-datatable.p-datatable-responsive .p-datatable-tbody > tr > td {
+    text-align: left;
+    display: block;
+    width: 100% !important;
+    float: left;
+    clear: left;
+    border: 0 none;
+  }
+
+  .p-datatable.p-datatable-responsive .p-datatable-tbody > tr > td:last-child {
+    border-bottom: 1px solid var(--surface-d);
+    text-align: right;
+  }
+}
+.p-dialog .p-dialog-footer button {
+  margin: 0;
+}
+
+.p-toolbar-group-left{
+  gap: 10px;
+}
+
+.p-toolbar-group-right{
+  gap: 10px;
+}
